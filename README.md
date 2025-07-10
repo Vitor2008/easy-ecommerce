@@ -1,16 +1,12 @@
-# Anon - An eCommerce Website
+# Easy Ecommerce 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/anon-ecommerce-website)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/anon-ecommerce-website?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/anon-ecommerce-website?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/3l8Lob4ysI0?style=social)](https://youtu.be/3l8Lob4ysI0)
-
-Anon is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
+Easy Ecommerce é um site de comércio eletrônico totalmente responsivo, com máxima compatibilidade em todos os dispositivos móveis, criado usando HTML, CSS e JavaScript no Fron-End, e C#, ASP.Net Core no Back-End.
 
 ## Demo
 
-![Anon Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+https://github.com/Vitor2008/easy-ecommerce/blob/main/wwwroot/images/website-demo-image/desktop.png
+![Easy Ecommerce Desktop Demo](./)
+![Anon Desktop Demo](./wwwroot/images/website-demo-image/desktop.png "Desktop Demo")
 ![Anon Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
 ## Prerequisites
