@@ -4,10 +4,8 @@ Easy Ecommerce é um site de comércio eletrônico totalmente responsivo, com m�
 
 ## Demo
 
-https://github.com/Vitor2008/easy-ecommerce/blob/main/wwwroot/images/website-demo-image/desktop.png
-![Easy Ecommerce Desktop Demo](./)
-![Anon Desktop Demo](./wwwroot/images/website-demo-image/desktop.png "Desktop Demo")
-![Anon Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+![Easy Ecommerce Desktop Demo](./wwwroot/images/website-demo-image/desktop.png "Desktop Demo")
+![Easy Ecommerce Mobile Demo](./wwwroot/images/website-demo-image/mobile.png "Mobile Demo")
 
 ## Prerequisites
 
