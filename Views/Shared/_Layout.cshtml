@@ -17,38 +17,6 @@
 
     <div class="overlay" data-overlay></div>
 
-    <!--- MODAL-->
-    <div class="modal" data-modal>
-        <div class="modal-close-overlay" data-modal-overlay></div>
-        
-        <div class="modal-content">
-
-            <button class="modal-close-btn" data-modal-close>
-                <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="newsletter-img">
-                <img src="~/images/newsletter.png" alt="receber novidades" width="400" height="400" />
-            </div>
-
-            <div class="newsletter">
-                <form action="#">
-                    <div class="newsletter-header">
-                        <h3 class="newsletter-title">Receber Novidades.</h3>
-                        <p class="newsletter-desc">
-                            Assine o <b>Easy Ecommerce</b> para receber as últimas novidades sobre produtos e atualizações de descontos.
-                        </p>
-                    </div>
-                    <input type="email" name="email" class="email-field" placeholder="Endereço de email" required>
-                    <button type="submit" class="btn-newsletter">Inscrever-se</button>
-                </form>
-            </div>
-
-        </div>
-
-    </div>
-
-
     <!--- NOTIFICATION TOAST-->
     <div class="notification-toast" data-toast>
 
@@ -93,9 +61,9 @@
                 </div>
 
                 <div class="header-user-actions">
-                    <button class="action-btn">
+                    @* <button class="action-btn">
                         <ion-icon name="person-outline"></ion-icon>
-                    </button>
+                    </button> *@
                     <button class="action-btn">
                         <ion-icon name="heart-outline"></ion-icon>
                         <span class="count">0</span>
@@ -547,53 +515,6 @@
 
             <div class="menu-bottom">
 
-                <ul class="menu-category-list">
-
-                    <li class="menu-category">
-
-                        <button class="accordion-menu" data-accordion-btn>
-                            <p class="menu-title">Language</p>
-
-                            <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
-                        </button>
-
-                        <ul class="submenu-category-list" data-accordion>
-
-                            <li class="submenu-category">
-                                <a href="#" class="submenu-title">English</a>
-                            </li>
-
-                            <li class="submenu-category">
-                                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
-                            </li>
-
-                            <li class="submenu-category">
-                                <a href="#" class="submenu-title">Fren&ccedil;h</a>
-                            </li>
-
-                        </ul>
-
-                    </li>
-
-                    <li class="menu-category">
-                        <button class="accordion-menu" data-accordion-btn>
-                            <p class="menu-title">Currency</p>
-                            <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
-                        </button>
-
-                        <ul class="submenu-category-list" data-accordion>
-                            <li class="submenu-category">
-                                <a href="#" class="submenu-title">USD &dollar;</a>
-                            </li>
-
-                            <li class="submenu-category">
-                                <a href="#" class="submenu-title">EUR &euro;</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                </ul>
-
                 <ul class="menu-social-container">
 
                     <li>
@@ -657,81 +578,6 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="footer-category">
-
-            <div class="container">
-
-                <h2 class="footer-category-title">Brand directory</h2>
-
-                <div class="footer-category-box">
-
-                    <h3 class="category-box-title">Fashion :</h3>
-
-                    <a href="#" class="footer-category-link">T-shirt</a>
-                    <a href="#" class="footer-category-link">Shirts</a>
-                    <a href="#" class="footer-category-link">shorts & jeans</a>
-                    <a href="#" class="footer-category-link">jacket</a>
-                    <a href="#" class="footer-category-link">dress & frock</a>
-                    <a href="#" class="footer-category-link">innerwear</a>
-                    <a href="#" class="footer-category-link">hosiery</a>
-
-                </div>
-
-                <div class="footer-category-box">
-                    <h3 class="category-box-title">footwear :</h3>
-
-                    <a href="#" class="footer-category-link">sport</a>
-                    <a href="#" class="footer-category-link">formal</a>
-                    <a href="#" class="footer-category-link">Boots</a>
-                    <a href="#" class="footer-category-link">casual</a>
-                    <a href="#" class="footer-category-link">cowboy shoes</a>
-                    <a href="#" class="footer-category-link">safety shoes</a>
-                    <a href="#" class="footer-category-link">Party wear shoes</a>
-                    <a href="#" class="footer-category-link">Branded</a>
-                    <a href="#" class="footer-category-link">Firstcopy</a>
-                    <a href="#" class="footer-category-link">Long shoes</a>
-                </div>
-
-                <div class="footer-category-box">
-                    <h3 class="category-box-title">jewellery :</h3>
-
-                    <a href="#" class="footer-category-link">Necklace</a>
-                    <a href="#" class="footer-category-link">Earrings</a>
-                    <a href="#" class="footer-category-link">Couple rings</a>
-                    <a href="#" class="footer-category-link">Pendants</a>
-                    <a href="#" class="footer-category-link">Crystal</a>
-                    <a href="#" class="footer-category-link">Bangles</a>
-                    <a href="#" class="footer-category-link">bracelets</a>
-                    <a href="#" class="footer-category-link">nosepin</a>
-                    <a href="#" class="footer-category-link">chain</a>
-                    <a href="#" class="footer-category-link">Earrings</a>
-                    <a href="#" class="footer-category-link">Couple rings</a>
-                </div>
-
-                <div class="footer-category-box">
-                    <h3 class="category-box-title">cosmetics :</h3>
-
-                    <a href="#" class="footer-category-link">Shampoo</a>
-                    <a href="#" class="footer-category-link">Bodywash</a>
-                    <a href="#" class="footer-category-link">Facewash</a>
-                    <a href="#" class="footer-category-link">makeup kit</a>
-                    <a href="#" class="footer-category-link">liner</a>
-                    <a href="#" class="footer-category-link">lipstick</a>
-                    <a href="#" class="footer-category-link">prefume</a>
-                    <a href="#" class="footer-category-link">Body soap</a>
-                    <a href="#" class="footer-category-link">scrub</a>
-                    <a href="#" class="footer-category-link">hair gel</a>
-                    <a href="#" class="footer-category-link">hair colors</a>
-                    <a href="#" class="footer-category-link">hair dye</a>
-                    <a href="#" class="footer-category-link">sunscreen</a>
-                    <a href="#" class="footer-category-link">skin loson</a>
-                    <a href="#" class="footer-category-link">liner</a>
-                    <a href="#" class="footer-category-link">lipstick</a>
-                </div>
-
-            </div>
-
-        </div>
 
         <div class="footer-nav">
 

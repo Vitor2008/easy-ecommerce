@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Produto";
+}
+
+@* <img src="~/images/products/jacket-3.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img default">
+<img src="~/images/products/jacket-4.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover"> *@
+
+
+<!--- PRODUCT DETAIL-->
+<div class="container">
+    <div class="details" id="">
+        <div class="single-pro-image">
+            <img class="mb-2" src="~/images/products/jacket-3.jpg" alt="" width="400" id="MainImg" />
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="~/images/products/jacket-3.jpg" alt="" width="200" class="small-img" />
+                </div>
+                <div class="small-img-col">
+                    <img src="~/images/products/jacket-3.jpg" alt="" width="200" class="small-img" />
+                </div>
+                <div class="small-img-col">
+                    <img src="~/images/products/jacket-3.jpg" alt="" width="200" class="small-img" />
+                </div>
+                <div class="small-img-col">
+                    <img src="~/images/products/jacket-3.jpg" alt="" width="200" class="small-img" />
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Coleção farm</h6>
+            <h4>Titulo</h4>
+            <h2>R$ 19,90</h2>
+            <select>
+                <option>Cor</option>
+                <option>Azul</option>
+                <option>Preto</option>
+                <option>Vermelho</option>
+            </select>
+
+            <select>
+                <option>Tamanho</option>
+                <option>P</option>
+                <option>M</option>
+                <option>G</option>
+                <option>GG</option>
+            </select>
+            <div class="carrinho-add mt-4">
+
+                <div class="add-carrinho">
+                    <span class="btn-menos" onclick="vitrine.metodos.diminunirQuantidade('\${id}')"><i class="fa fa-minus"></i></span>
+                    <span class="add-numero-itens" id="qntd-\${id}">0</span>
+                    <span class="btn-mais" onclick="vitrine.metodos.aumentarQuantidade('\${id}')"><i class="fa fa-plus"></i></span>
+                </div>
+                &nbsp;  &nbsp;  &nbsp;
+                <a class="btn-add" onclick="vitrine.metodos.adicionarAoCarrinho('\${id}')"><i class="fas fa-shopping-bag cart"></i></a>
+
+            </div>
+            <h4>Detalhes do Produto</h4>
+            <span>Jaqueta</span>
+        </div>
+    </div>
+</div>

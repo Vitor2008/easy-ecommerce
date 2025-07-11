@@ -2148,6 +2148,17 @@ footer {
 
 
 
+/**
+* #PRODUCT DETAIL
+*/
+
+.details {
+    display: flex;
+}
+
+
+
+
 
 
 /*-----------------------------------*\

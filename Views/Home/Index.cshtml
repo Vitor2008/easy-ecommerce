@@ -1,6 +1,37 @@
 ﻿@{
     ViewData["Title"] = "Home";
 }
+<!--- MODAL-->
+<div class="modal" data-modal>
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+        <button class="modal-close-btn" data-modal-close>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="newsletter-img">
+            <img src="~/images/newsletter.png" alt="receber novidades" width="400" height="400" />
+        </div>
+
+        <div class="newsletter">
+            <form action="#">
+                <div class="newsletter-header">
+                    <h3 class="newsletter-title">Receber Novidades.</h3>
+                    <p class="newsletter-desc">
+                        Assine o <b>Easy Ecommerce</b> para receber as últimas novidades sobre produtos e atualizações de descontos.
+                    </p>
+                </div>
+                <input type="email" name="email" class="email-field" placeholder="Endereço de email" required>
+                <button type="submit" class="btn-newsletter">Inscrever-se</button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
 
 <!--- BANNER-->
 <div class="banner">
@@ -2207,3 +2238,7 @@
     </div>
 
 </div>
+
+@section Scripts {
+    <script src="~/js/Home/home.js"></script>
+}
